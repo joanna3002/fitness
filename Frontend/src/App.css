@@ -1,0 +1,54 @@
+/* Global Dark Theme */
+body {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login box */
+.login-container {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 14px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #262626;
+  color: white;
+}
+
+/* Button */
+button {
+  width: 95%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
